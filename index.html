@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>Pratica06</title>
+</head>
+<body>
+<!--              -->
+    <nav class="flex bg-green-500  justify-between">
+        <a href="#" class="font-medium px-3 py-2 text-slate-700 ">
+            <div class="flex">
+                <img src="img/logo.png" style="width: 80px;" alt=""><p class="pt-4">Chesse Company</p>
+
+            </div>
+        </a>
+        <a href="#" class=" pt-6 font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Sobre empresa</a>
+            <a href="#" class="pt-6 font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Produtos</a>
+            <a href="#" class="pt-6 font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Vinhos</a>
+            <a href="#" class="pt-6 font-medium px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">Cadastre-se</a>
+        <div class="my-7 mx-3">
+            <div class="flex">
+                <input class="rounded-lg" type="text" name="pesquisa" id="">
+                <img src="img/queijopesquisa.png" style="width: 30px;" alt="">
+
+            </div>
+        </div>
+    </nav>
+    <!-- fim nav -->
+    <!-- layout -->
+    <div class="mt-1 flex">
+        <img class="img-fluid" style="width: 1500px; height: 500px;" src="img/queijo.jpg" alt="">
+    </div>
+    <!-- fim layout -->
+    <!-- secção sobre empresa -->
+    <section id="sobre-nos" class="flex">
+        <div class="grid grid-cols-2 gap-4 mt-3">
+            <div class="">
+                <div id="sobre-empres">
+                    <h2 class="text-white bg-green-500 rounded-lg text-4 pl-2">Nossa História</h2>
+                    <div class="grid grid-cols-2 mt-5">
+                        <div class="p-10">
+                            <img src="img/logo.png" class="flex bg-green-500" >
+                        </div>
+                        <p class="text-justify">Era uma vez uma pequena queijaria localizada em uma cidadezinha no interior do país. A família que a administrava produzia queijos artesanais com receitas passadas de geração em geração. Apesar da concorrência com grandes indústrias de laticínios, a queijaria mantinha-se fiel à tradição, utilizando apenas ingredientes naturais e técnicas manuais de produção. Com o tempo, a família investiu em tecnologia para aprimorar a produção sem abrir mão da tradição e os queijos da queijaria passaram a ser exportados para outros países. A história da pequena queijaria mostra que é possível manter as raízes da tradição e, ao mesmo tempo, inovar e conquistar novos mercados.</p>
+                        <button type="submit" class="bg-green-500 rounded-full text-white ml-10 mt-4 mb-10 w-2/4">Compartilhar</button>
+                        <button type="submit" class="bg-green-500 rounded-full text-white mt-5 ml-10 mb-10 w-2/4">Dowload</button>
+                    </div>
+                </div>
+                <!-- fim sobre empresa -->
+                <!-- produtos -->
+                <div id="produtos" class="mb-3">
+                    <h2 class="text-white bg-green-500 rounded-lg text-4 pl-2">Nossos Produtos</h2>
+                    <div class="grid grid-cols-3 gap-4 mt-3">
+                        <div class="p-1">
+                            <img src="img/tipo-queijo01.jpg" class="card-img-top" alt="">
+                            <div class="text-center">
+                                <h3 class="">Queijo parmesão</h3>
+                                <p class="">Produzido com todo o cuidado e tradição, nosso Parmesão é feito a partir do leite de vacas selecionadas, seguindo as técnicas artesanais italianas.</p>
+                            </div>
+                        </div>
+                        <div class="p-1">
+                            <img src="img/queijo-02.jpg" class="card-img-top" alt="">
+                            <div class="text-center">
+                                <h4 class="">Queijo fresco</h4>
+                                <p class="">Produzido com todo o cuidado e tradição, nosso Parmesão é feito a partir do leite de vacas selecionadas, seguindo as técnicas artesanais italianas.</p>
+                            </div>
+                        </div>
+                        <div class="p-1">
+                            <img src="img/queijo-04.jpg" class="card-img-top" alt="">
+                            <div class="text-center">
+                                <h5 class="">Queijo mussarela</h5>
+                                <p class="">Produzido com todo o cuidado e tradição, nosso Parmesão é feito a partir do leite de vacas selecionadas, seguindo as técnicas artesanais italianas.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <!-- fim produtos -->
+                <div id="atencao" class="border border-red-300 p-2 m-2">
+                    <h2 class="text-red-600 text-center">ATENÇÃO!!</h2>
+                    <p class="m-2">Atenção! Verifique sempre as opções de frete disponíveis ao comprar seus queijos online. Algumas opções podem ter prazos de entrega maiores e outras podem ser mais rápidas, mas com valores mais elevados. Certifique-se de escolher a opção que melhor atende às suas necessidades para receber seus queijos frescos e saborosos no prazo desejado.</p>
+                </div>
+            </div>
+            <div class="ml-20">
+                <h2 class="text-white bg-green-500 rounded-lg text-4 pl-2 ">Processo de produção</h2>
+                <div class="flex justify-center" >
+                    <iframe id="video-producao" class="p-2 "  style="width: 600px; height: 300px;"  src="https://www.youtube.com/embed/m5blxi1H0B0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                </div>
+                <div class="flex justify-center">
+                    <button type="submit" class="bg-green-500 rounded-full text-white ml-10 mt-4 mb-10 w-2/4">Compartilhar</button> 
+                </div>
+                <h2 class="text-white bg-green-500 rounded-lg text-4 pl-2">VINHOS</h2>
+                <div class="mt-5">
+                    <div class="flex ">
+                        <img src="img/vinho.png" style="width: 50px;" alt="">
+                        <a href="#" class="text-purple-500  mt-5 pl-2 ">Vinho tinto</a>
+                    </div>
+                    <div class="flex ">
+                        <img src="img/vinho.png" style="width: 50px;" alt="">
+                        <a href="#" class="text-purple-500  mt-5 pl-2 ">Vinho branco</a>
+                    </div>
+                    <div class="flex ">
+                        <img src="img/vinho.png" style="width: 50px;" alt="">
+                        <a href="#" class="text-purple-500  mt-5 pl-2 ">Vinho rosé</a>
+                    </div>
+                    <div class="flex ">
+                        <img src="img/vinho.png" style="width: 50px;" alt="">
+                        <a href="#" class="text-purple-500  mt-5 pl-2 ">Vinho licoroso</a>
+                    </div>
+                    <div class="flex ">
+                        <img src="img/vinho.png" style="width: 50px;" alt="">
+                        <a href="#" class="text-purple-500  mt-5 pl-2 ">Outros ...</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+   
+</body>
+</html>
